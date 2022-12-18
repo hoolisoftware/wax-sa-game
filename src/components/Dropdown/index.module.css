@@ -1,0 +1,73 @@
+.dropdown
+{
+    position: relative;
+}
+
+.dropdown:hover
+{
+    opacity: 1;
+}
+
+.dropdown__button
+{
+    text-align: start;
+    width: 100%;
+}
+
+.dropdown.dropdownActive .dropdown__angle
+{
+    transform: rotate(-180deg);
+}
+
+.dropdown.dropdownActive .dropdown__select
+{
+    display: block;
+    max-height: 200px;
+}
+
+.dropdown__angle
+{
+    transition: 0.2s;
+}
+
+.dropdown__select
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    width: 100%;
+    text-align: start;
+    z-index: 10;
+    background: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    max-height: 0;
+}
+
+.dropdown__option
+{
+    transition: 0.2;
+    background: rgba(0,0,0,0.8);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.dropdown__optionActive
+{
+    color: gold;
+}
+
+.dropdown__option:hover
+{
+    opacity: 0.8;
+}
+
+@media (max-width: 475px)
+{
+    .dropdown__option
+    {
+        font-size: 10px;
+    }
+}

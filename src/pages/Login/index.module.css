@@ -1,0 +1,17 @@
+.dialog
+{
+    max-width: 580px;
+    margin: 10vh auto;
+}
+
+.dialog__heading
+{
+    text-align: center;
+}
+
+.dialog__button
+{
+    max-width: 320px;
+    margin: 0 auto 25px;
+    width: 100%;
+}

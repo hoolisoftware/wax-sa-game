@@ -1,0 +1,13 @@
+.card
+{
+    background: rgba(96, 95, 94, 0.62);
+    padding: 30px;
+}
+
+@media (max-width: 475px)
+{
+    .card
+    {
+        padding: 15px;
+    }
+}

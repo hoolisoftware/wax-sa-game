@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "./src/features"
+		},
+		{
+			"path": "./src/agent"
+		},
+		{
+			"path": "./src/pages"
+		},
+		{
+			"path": "./src/components"
+		},
+		{
+			"path": "./src/assets"
+		},
+		{
+			"path": "./src"
+		},
+		{
+			"path": "."
+		},
+	],
+	"settings": {}
+}
