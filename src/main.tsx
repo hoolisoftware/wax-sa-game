@@ -1,3 +1,5 @@
+import 'regenerator-runtime'
+
 import './index.css'
 import chains from './chains.json'
 
